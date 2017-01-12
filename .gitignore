@@ -1,1 +1,3 @@
 /djangoreact/
+*.db
+*.sqlite3
