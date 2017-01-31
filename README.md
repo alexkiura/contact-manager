@@ -1,2 +1,2 @@
-# django-react-todo
-A contact manager API built with Django Rest Framework.
+# contact-manager
+A RESTFUL contact manager API built with Django Rest Framework.
