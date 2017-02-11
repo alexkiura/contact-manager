@@ -1,7 +1,9 @@
+"Settings for project"
+
 import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SECRET_KEY = 'nvkx79u%exbnmlylyytbnizsn##ai)=j7*vdvm5&v=llwn(r%m'
+SECRET_KEY = os.getenv('SECRET_KEY')
 
 DEBUG = True
 
