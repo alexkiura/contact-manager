@@ -15,5 +15,5 @@ class Contact(models.Model):
 
 class Person(models.Model):
     """Person model"""
-    email = models.EmailField(max_length=254, blank=True, unique=True)
+    email = models.EmailField(max_length=254, unique=True)
     name = models.CharField(max_length=255, blank=True)
